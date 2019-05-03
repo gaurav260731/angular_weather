@@ -1,0 +1,25 @@
+.city_desc {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding:40px;
+    margin:80px;
+    box-shadow:2px 3px 4px 3px rgb(100, 218, 149);
+}
+
+.city_desc:hover {
+    box-shadow:2px 3px 4px 3px rgb(145, 196, 230);
+}
+
+.city_head {
+    font-family: cursive;
+    font-size:20px;
+}
+.city_place {
+    padding:10px;
+}
+.city_submit {
+    font-family: cursive;
+    padding:8px;
+    margin-left:5px;
+}
