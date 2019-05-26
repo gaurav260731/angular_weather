@@ -13,14 +13,16 @@
       </div>
     </section>
     <section class="menu-body">
-
+      <div class="menu_search">
+        <span class="exp_search"><a routerLink="/place" routerLinkActive="active">Explore and search</a></span>
+      </div>
     </section>
     <section class="menu-footer">
 
     </section>
   </nav>
 </aside>
-
+<router-outlet></router-outlet>
 <div class="root__container">
   <header [ngClass]="{'main__header-dark': darkModeActive}" class="main__header">
 
@@ -80,10 +82,11 @@
     <div class="main-container__bg" [ngClass]="{'main-container__bg-dark': darkModeActive}"></div>
     <router-outlet></router-outlet>
   </main>
-
+ 
   <!-- Footer -->
 
   <footer class="main__footer">
     <small class="copyright__text">Copyright © 2018 Weather</small>
   </footer>
+
 </div>

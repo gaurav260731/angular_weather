@@ -300,3 +300,7 @@
     width: 100%;
   }
 }
+
+.exp_search {
+  cursor:pointer;
+}
